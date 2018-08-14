@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
+
 export class AppComponent {
-  title = 'MiPrimerProyecto';
-}
+  title: string = 'MiPrimerProyecto';
+  numbers = [1 , 3 , 5 ];
+  }
+
+  function devuelveEdad ( edad ): number {
+      const miEdad = edad;  return miEdad;
+  }
